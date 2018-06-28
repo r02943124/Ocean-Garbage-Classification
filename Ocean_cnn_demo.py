@@ -18,6 +18,7 @@ from tensorflow.python.ops.gen_random_ops import *
 import os, sys, itertools, argparse
 from cnn import CNN
 from Input_Ocean import Input_Ocean
+import cnn_parameters
 
 
 class Configuration( object ):
