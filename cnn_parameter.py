@@ -20,3 +20,14 @@ class Parameters(object):
     display_step    = 1
     gup_on          = False
 
+
+
+
+class data_class(object):
+    train_label=[]
+    train_images=[]
+    validation_images=[]
+    validation_label=[]
+    test_images =[]
+    test_label=[]
+
